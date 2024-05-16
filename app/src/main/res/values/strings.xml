@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">PageAPP</string>
+    <string name="app_name">FinanceApp</string>
+    <string name="logo_description">Logo FinanFacil</string>
+    <string name="receita">Logo Receita</string>
+    <string name="despesa">Logo Despesa</string>
+    <string name="historico">Histórico</string>
+    <string name="categoria">Categoria</string>
+    <string name="registrar">Registrar</string>
+    <string name="deshboard">Dashboard</string>
 </resources>
