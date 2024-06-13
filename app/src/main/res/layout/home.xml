@@ -38,7 +38,8 @@
             android:layout_marginTop="3dp"
             android:text="R$3.500,00"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -73,7 +74,8 @@
                     android:layout_marginTop="-15dp"
                     android:layout_weight="1"
                     android:text="R$3.500,00"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <ImageView
@@ -103,7 +105,8 @@
                     android:layout_marginTop="-15dp"
                     android:layout_weight="1"
                     android:text="R$1.200,00"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
@@ -142,7 +145,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Histórico"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -170,7 +174,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Categorias"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textStyle="bold" />
         </LinearLayout>
 
 
@@ -198,7 +203,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Registrar"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -226,7 +232,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Dashboard"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
@@ -317,28 +324,32 @@
                 android:layout_width="113dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Alimentação" />
+                android:text="Alimentação"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Morada" />
+                android:text="Morada"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Transporte" />
+                android:text="Transporte"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Lazer" />
+                android:text="Lazer"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -353,28 +364,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:text="- R$420,00" />
+                android:text="- R$420,00"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="- R$380,00" />
+                android:text="- R$380,00"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="- R$270,00" />
+                android:text="- R$270,00"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="- R$130,00" />
+                android:text="- R$130,00"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
@@ -410,7 +425,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
-                android:text="Quinta-Feira, 16" />
+                android:text="Quinta-Feira, 16"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -450,19 +466,22 @@
                         android:layout_height="wrap_content"
                         android:text="Descrição"
                         android:textAlignment="center"
-                        android:textSize="9sp" />
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView40"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="  Spotify" />
+                        android:text="  Spotify"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView36"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="  Academia" />
+                        android:text="  Academia"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -476,21 +495,24 @@
                         android:layout_height="wrap_content"
                         android:text="Horário"
                         android:textAlignment="center"
-                        android:textSize="9sp" />
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView47"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="11:47"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView48"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="10:17"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -504,21 +526,24 @@
                         android:layout_height="wrap_content"
                         android:text="Valor"
                         android:textAlignment="center"
-                        android:textSize="9sp" />
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView49"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="- R$11,90"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView50"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="- R$99,00"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -536,7 +561,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Quarta-Feira, 15" />
+                android:text="Quarta-Feira, 15"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -576,19 +602,22 @@
                         android:layout_height="wrap_content"
                         android:text="Descrição"
                         android:textAlignment="center"
-                        android:textSize="9sp" />
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView43"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="  Caju" />
+                        android:text="  Caju"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView44"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="  Salário" />
+                        android:text="  Salário"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -602,21 +631,24 @@
                         android:layout_height="wrap_content"
                         android:text="Horário"
                         android:textAlignment="center"
-                        android:textSize="9sp" />
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView51"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="06:59"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView52"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="08:49"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -631,21 +663,24 @@
                         android:layout_height="wrap_content"
                         android:text="Valor"
                         android:textAlignment="center"
-                        android:textSize="9sp" />
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView53"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="R$616,00"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView54"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="R$570,00"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
